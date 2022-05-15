@@ -326,7 +326,7 @@ namespace MapsetParser.objects
         public HitSound? GetSliderSlide() =>
             (this as Slider)?.hitSound ?? null;
 
-        /// <summary> Returns all individual hit sounds used by a specific hit sound instnace,
+        /// <summary> Returns all individual hit sounds used by a specific hit sound instance,
         /// excluding <see cref="HitSound.None"/>. </summary>
         private IEnumerable<HitSound> SplitHitSound(HitSound hitSound)
         {
